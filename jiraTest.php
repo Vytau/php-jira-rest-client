@@ -22,3 +22,8 @@ $body = array("fields" => array("project" => array("key" => $projectKey),
 
 //You will get true if action was successful if not the error must be logged in Errors folder
 echo $jira->createIssue(json_encode($body));
+
+$tempResponseMsg = (Array)json_decode($jira->request->lastResponseBody());
+
+//This is how you can get id of an created issue
+$tempResponseMsg['id'];
