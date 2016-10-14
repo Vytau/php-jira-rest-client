@@ -1,0 +1,65 @@
+
+**********************************************
+URL performed: http://localhost:8080/rest/api/2/issue/
+Method: POST
+Date: 2016-10-14 11:27:35
+Request body: {"fields":{"project":{"key":"DEV"},"summary":"Test: creating issue in Jira","description":"creating issue from php-jira-rest-client","issuetype":"Bug","assignee":null,"priority":"High"}}
+Response body: {"errorMessages":[],"errors":{"issuetype":"issue type is required"}}
+Response info: {"url":"http:\/\/localhost:8080\/rest\/api\/2\/issue\/","content_type":"application\/json;charset=UTF-8","http_code":400,"header_size":608,"request_size":406,"filetime":-1,"ssl_verify_result":0,"redirect_count":0,"total_time":0.733,"namelookup_time":0.031,"connect_time":0.031,"pretransfer_time":0.031,"size_upload":186,"size_download":82,"speed_download":111,"speed_upload":253,"download_content_length":-1,"upload_content_length":186,"starttransfer_time":0.717,"redirect_time":0,"redirect_url":"","primary_ip":"127.0.0.1","certinfo":[],"primary_port":8080,"local_ip":"127.0.0.1","local_port":51934}
+Response error: 
+**********************************************
+URL performed: http://localhost:8080/rest/api/2/issue/
+Method: POST
+Date: 2016-10-14 11:29:53
+Request body: {"fields":{"project":{"key":"DEV"},"summary":"Test: creating issue in Jira","description":"creating issue from php-jira-rest-client","issuetype":"Bug","assignee":null,"priority":"High"}}
+Response body: {"errorMessages":[],"errors":{"issuetype":"issue type is required"}}
+Response info: {"url":"http:\/\/localhost:8080\/rest\/api\/2\/issue\/","content_type":"application\/json;charset=UTF-8","http_code":400,"header_size":607,"request_size":406,"filetime":-1,"ssl_verify_result":0,"redirect_count":0,"total_time":0.109,"namelookup_time":0,"connect_time":0.015,"pretransfer_time":0.015,"size_upload":186,"size_download":82,"speed_download":752,"speed_upload":1706,"download_content_length":-1,"upload_content_length":186,"starttransfer_time":0.109,"redirect_time":0,"redirect_url":"","primary_ip":"127.0.0.1","certinfo":[],"primary_port":8080,"local_ip":"127.0.0.1","local_port":51949}
+Response error: 
+**********************************************
+URL performed: https://localhost:8080/rest/api/2/issue/
+Method: POST
+Date: 2016-10-14 11:46:55
+Request body: {"fields":{"project":{"key":"TTB"},"summary":"Jiranow: QA312312 report 2016-10-13 17:46:11","description":"Used Hardware: \nDevice ID (MUID): QA312312\nSoftware Version: 16.321\nMap Name: \nMap Version: v2\nGPS Coordinates: 52.37642809,, 4.90826377\nGPS Fix state: Older\nBug covered in a test case: Yes\/No\n\nProblem description\/Observation: \nReproduce steps: \nActual outcome: \nExpected: \n\nAdditional info: \nExit conditions: \n\nN.B. Don't forget to fill in specific fiels like Device!\nPlease find attached screen shot, lof file, and recorded message\n","issuetype":{"name":"Bug"},"assignee":{"name":null},"priority":{"name":"Medium"}}}
+Response body: data type is not defined check ErrorHandler.php makeString function
+Response info: {"url":"https:\/\/localhost:8080\/rest\/api\/2\/issue\/","content_type":null,"http_code":0,"header_size":0,"request_size":0,"filetime":-1,"ssl_verify_result":1,"redirect_count":0,"total_time":21.138,"namelookup_time":0,"connect_time":0,"pretransfer_time":0,"size_upload":0,"size_download":0,"speed_download":0,"speed_upload":0,"download_content_length":-1,"upload_content_length":-1,"starttransfer_time":0,"redirect_time":0,"redirect_url":"","primary_ip":"127.0.0.1","certinfo":[],"primary_port":8080,"local_ip":"127.0.0.1","local_port":52249}
+Response error: Unknown SSL protocol error in connection to localhost:8080 
+**********************************************
+URL performed: https://localhost:8080/rest/api/2/issue/
+Method: POST
+Date: 2016-10-14 11:47:16
+Request body: {"fields":{"project":{"key":"DAS"},"summary":"Jiranow: failure detected in testing environment","description":"Used Hardware: \nFailure type: TL\nPriority: Lowest\nComment: it is a good day\n","issuetype":{"name":"Bug"},"assignee":{"name":null},"priority":{"name":"Lowest"}}}
+Response body: data type is not defined check ErrorHandler.php makeString function
+Response info: {"url":"https:\/\/localhost:8080\/rest\/api\/2\/issue\/","content_type":null,"http_code":0,"header_size":0,"request_size":0,"filetime":-1,"ssl_verify_result":1,"redirect_count":0,"total_time":20.015,"namelookup_time":0,"connect_time":0,"pretransfer_time":0,"size_upload":0,"size_download":0,"speed_download":0,"speed_upload":0,"download_content_length":-1,"upload_content_length":-1,"starttransfer_time":0,"redirect_time":0,"redirect_url":"","primary_ip":"127.0.0.1","certinfo":[],"primary_port":8080,"local_ip":"127.0.0.1","local_port":52259}
+Response error: Unknown SSL protocol error in connection to localhost:8080 
+**********************************************
+URL performed: http://localhost:8080/rest/api/2/issue/
+Method: POST
+Date: 2016-10-14 11:47:16
+Request body: {"fields":{"project":{"key":"TTB"},"summary":"Jiranow: QA312312 report 2016-10-13 17:46:11","description":"Used Hardware: \nDevice ID (MUID): QA312312\nSoftware Version: 16.321\nMap Name: \nMap Version: v2\nGPS Coordinates: 52.37642809,, 4.90826377\nGPS Fix state: Older\nBug covered in a test case: Yes\/No\n\nProblem description\/Observation: \nReproduce steps: \nActual outcome: \nExpected: \n\nAdditional info: \nExit conditions: \n\nN.B. Don't forget to fill in specific fiels like Device!\nPlease find attached screen shot, lof file, and recorded message\n","issuetype":{"name":"Bug"},"assignee":{"name":null},"priority":{"name":"Medium"}}}
+Response body: {"errorMessages":[],"errors":{"project":"project is required"}}
+Response info: {"url":"http:\/\/localhost:8080\/rest\/api\/2\/issue\/","content_type":"application\/json;charset=UTF-8","http_code":400,"header_size":608,"request_size":866,"filetime":-1,"ssl_verify_result":0,"redirect_count":0,"total_time":0.156,"namelookup_time":0,"connect_time":0.016,"pretransfer_time":0.016,"size_upload":646,"size_download":77,"speed_download":493,"speed_upload":4141,"download_content_length":-1,"upload_content_length":646,"starttransfer_time":0.156,"redirect_time":0,"redirect_url":"","primary_ip":"127.0.0.1","certinfo":[],"primary_port":8080,"local_ip":"127.0.0.1","local_port":52272}
+Response error: 
+**********************************************
+URL performed: http://localhost:8080/rest/api/2/issue/10070/watchers
+Method: POST
+Date: 2016-10-14 11:47:20
+Request body: "fake1"
+Response body: 
+Response info: {"url":"http:\/\/localhost:8080\/rest\/api\/2\/issue\/10070\/watchers","content_type":"application\/json;charset=UTF-8","http_code":400,"header_size":608,"request_size":239,"filetime":-1,"ssl_verify_result":0,"redirect_count":0,"total_time":0.063,"namelookup_time":0,"connect_time":0,"pretransfer_time":0,"size_upload":7,"size_download":25,"speed_download":396,"speed_upload":111,"download_content_length":-1,"upload_content_length":7,"starttransfer_time":0.063,"redirect_time":0,"redirect_url":"","primary_ip":"127.0.0.1","certinfo":[],"primary_port":8080,"local_ip":"127.0.0.1","local_port":52279}
+Response error: 
+**********************************************
+URL performed: http://localhost:8080/rest/api/2/issue/10071/watchers
+Method: POST
+Date: 2016-10-14 11:48:50
+Request body: "fake"
+Response body: 
+Response info: {"url":"http:\/\/localhost:8080\/rest\/api\/2\/issue\/10071\/watchers","content_type":"application\/json;charset=UTF-8","http_code":400,"header_size":608,"request_size":238,"filetime":-1,"ssl_verify_result":0,"redirect_count":0,"total_time":0.062,"namelookup_time":0,"connect_time":0,"pretransfer_time":0,"size_upload":6,"size_download":25,"speed_download":403,"speed_upload":96,"download_content_length":-1,"upload_content_length":6,"starttransfer_time":0.062,"redirect_time":0,"redirect_url":"","primary_ip":"127.0.0.1","certinfo":[],"primary_port":8080,"local_ip":"127.0.0.1","local_port":52307}
+Response error: 
+**********************************************
+URL performed: http://localhost:8080/rest/api/2/issue/10072/watchers
+Method: POST
+Date: 2016-10-14 12:27:46
+Request body: "fake"
+Response body: 
+Response info: {"url":"http:\/\/localhost:8080\/rest\/api\/2\/issue\/10072\/watchers","content_type":"application\/json;charset=UTF-8","http_code":400,"header_size":608,"request_size":238,"filetime":-1,"ssl_verify_result":0,"redirect_count":0,"total_time":0.047,"namelookup_time":0,"connect_time":0,"pretransfer_time":0,"size_upload":6,"size_download":25,"speed_download":531,"speed_upload":127,"download_content_length":-1,"upload_content_length":6,"starttransfer_time":0.047,"redirect_time":0,"redirect_url":"","primary_ip":"127.0.0.1","certinfo":[],"primary_port":8080,"local_ip":"127.0.0.1","local_port":52652}
+Response error: 
