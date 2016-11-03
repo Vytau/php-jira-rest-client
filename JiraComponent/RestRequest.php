@@ -30,9 +30,8 @@ class RestRequest
                 "cache-control: no-cache",
                 "content-type: application/json"); //need for creating issue, but blocks uploading the file
         } elseif ($requestBody == null && $fileLocation != null) {
-            //php version < 5.5.0 but > 5.2.10 || not tested
-//            $data = array('file' => "@" . $fileLocation . ';' .basename($fileLocation));
-//            $this->requestBody = json_encode($data);
+            //php version < 5.5.0 but > 5.2.10 || tested
+//            $this->requestBody = array('file' => "@" . $fileLocation . ';filename=' . basename($fileLocation));
             //php version >= 5.5.0 || tested and working php version Windows 7.0.9 and 5.5.38
             $cfile = new CURLFile($fileLocation);
             $cfile->setPostFilename(basename($fileLocation));
