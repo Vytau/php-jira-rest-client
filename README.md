@@ -1,11 +1,10 @@
-# php-jira-rest-client
-php classes to interact with Jira Rest API
+# Jira REST API PHP client
 
-Implemented Methods: <br />
-  *POST <br />
+### Implemented REST requests:
+  - POST
 
-Implemented Functions: <br />
-  *createIssue <br />
-  *addAttachment <br />
-  *addComment <br />
-  *addWatcher <br />
+### Implemented Jira REST API methods:
+  - Create issue
+  - Add comment
+  - Add watcher
+  - Add attachment
